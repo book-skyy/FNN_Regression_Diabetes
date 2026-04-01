@@ -1,0 +1,30 @@
+data:
+  batch_size: 32
+  random_state: 42
+  test_size: 0.1
+  validation_size: 0.1
+description: 'Research activation function impact: Test Tanh activation with 2 hidden
+  layers and learning rate 0.001.'
+experiment_name: activation_study_tanh
+model:
+  activation: tanh
+  dropout_rate: 0.0
+  hidden_layers:
+  - 64
+  - 32
+  input_dim: 10
+  output_dim: 1
+project_name: FNN_Regression_Diabetes
+runtime:
+  device: auto
+  early_stopping_patience: 10
+  output_dir: ./experiments
+  seed: 42
+tags:
+- activation_study
+- tanh
+training:
+  epochs: 150
+  learning_rate: 0.001
+  loss_function: MSELoss
+  optimizer: Adam

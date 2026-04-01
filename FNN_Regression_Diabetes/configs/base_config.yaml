@@ -1,0 +1,37 @@
+# configs/base_config.yaml
+
+# ----------------- 实验元数据 (Experiment Metadata) -----------------
+project_name: "FNN_Regression_Diabetes"
+experiment_name: "baseline"
+description: "一个基础的前馈网络回归模型，用作后续调优的基准。"
+tags: ["baseline", "FNN", "regression"]
+
+# ----------------- 数据配置 (Data Configuration) -----------------
+data:
+  # get_dataloaders函数中的参数
+  batch_size: 32
+  test_size: 0.1
+  validation_size: 0.1
+  random_state: 42
+
+# ----------------- 模型架构 (Model Architecture) -----------------
+# FNN类__init__中的参数
+model:
+  input_dim: 10         # Diabetes数据集的特征维度，是固定的
+  output_dim: 1         # 回归任务的输出维度，是固定的
+  hidden_layers: [64, 32] # 核心可变参数：一个64神经元的隐藏层后接一个32神经元的
+  activation: "relu"      # 核心可变参数：激活函数
+  dropout_rate: 0.0       # 0.0表示不使用Dropout
+
+# ----------------- 训练参数 (Training Parameters) -----------------
+training:
+  optimizer: "Adam"       # 核心可变参数：优化器
+  learning_rate: 0.001    # 核心可变参数：学习率
+  epochs: 150             # 训练轮数
+  loss_function: "MSELoss" # 损失函数 (均方误差)
+
+# ----------------- 运行与日志 (Runtime & Logging) -----------------
+runtime:
+  device: "auto"          # 脚本将自动选择 'cuda' (如果可用) 或 'cpu'
+  seed: 42                # 全局随机种子，确保模型初始化和训练过程可复现
+  output_dir: "./experiments" # 所有实验产出的根目录

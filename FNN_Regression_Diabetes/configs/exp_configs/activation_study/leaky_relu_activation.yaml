@@ -1,0 +1,32 @@
+# configs/exp_configs/activation_study/leaky_relu_activation.yaml
+# Test LeakyReLU activation function (fixed: 2 hidden layers, learning rate 0.001)
+
+experiment_name: "activation_study_leaky_relu"
+description: "Research activation function impact: Test LeakyReLU activation with 2 hidden layers and learning rate 0.001."
+tags: ["activation_study", "leaky_relu"]
+
+model:
+  # --- Key modification: LeakyReLU activation ---
+  activation: "leaky_relu"
+  hidden_layers: [64, 32]  # 2 hidden layers
+  input_dim: 10
+  output_dim: 1
+  dropout_rate: 0.0
+
+# Fixed learning rate and other hyperparameters
+data:
+  batch_size: 32
+  test_size: 0.1
+  validation_size: 0.1
+  random_state: 42
+
+training:
+  optimizer: "Adam"
+  learning_rate: 0.001  # Fixed learning rate
+  epochs: 150
+  loss_function: "MSELoss"
+
+runtime:
+  seed: 42
+  device: "auto"
+  early_stopping_patience: 10

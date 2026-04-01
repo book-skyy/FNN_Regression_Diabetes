@@ -1,0 +1,33 @@
+# configs/exp_configs/lr_study/lr_01.yaml
+# 继承自 base_config.yaml, 仅修改 training.learning_rate
+
+experiment_name: "lr_study_high_0.1"
+description: "研究学习率的影响：测试一个较高的学习率（0.1）。"
+tags: ["lr_study", "very_high_lr"]
+
+training:
+  # --- 修改点 ---
+  learning_rate: 0.1
+  # --- 其他参数沿用基础配置 ---
+  optimizer: "Adam"
+  epochs: 150
+  loss_function: "MSELoss"
+
+# 其他所有配置（data, model, runtime）都与base_config.yaml保持一致
+data:
+  batch_size: 32
+  test_size: 0.1
+  validation_size: 0.1
+  random_state: 42
+
+model:
+  input_dim: 10
+  output_dim: 1
+  hidden_layers: [64, 32]
+  activation: "relu"
+  dropout_rate: 0.0
+
+runtime:
+  device: "auto"
+  seed: 42
+  output_dir: "./experiments"

@@ -1,0 +1,41 @@
+2026-03-31 17:05:01 - FNN_Training - INFO - ============================================================
+2026-03-31 17:05:01 - FNN_Training - INFO - 开始实验: activation_study_swish
+2026-03-31 17:05:01 - FNN_Training - INFO - 配置文件: FNN_Regression_Diabetes\configs\exp_configs\activation_study\swish_activation.yaml
+2026-03-31 17:05:01 - FNN_Training - INFO - 实验描述: Research activation function impact: Test Swish activation with 2 hidden layers and learning rate 0.001.
+2026-03-31 17:05:01 - FNN_Training - INFO - 输出目录: C:\Users\19441\Desktop\DL\FNN\FNN_Regression_Diabetes\experiments\activation_study_swish_20260331_170501
+2026-03-31 17:05:01 - FNN_Training - INFO - ============================================================
+2026-03-31 17:05:01 - FNN_Training - INFO - 随机种子: 42
+2026-03-31 17:05:01 - FNN_Training - INFO - 加载数据...
+2026-03-31 17:05:01 - FNN_Training - INFO - 构建模型...
+2026-03-31 17:05:01 - FNN_Training - INFO - 模型架构:
+2026-03-31 17:05:01 - FNN_Training - INFO -   隐藏层: [64, 32]
+2026-03-31 17:05:01 - FNN_Training - INFO -   激活函数: swish
+2026-03-31 17:05:01 - FNN_Training - INFO -   Dropout: 0.0
+2026-03-31 17:05:01 - FNN_Training - INFO - 模型参数量: 2817
+2026-03-31 17:05:01 - FNN_Training - INFO - 开始训练，共150个epoch
+2026-03-31 17:05:01 - FNN_Training - INFO - 优化器: Adam, 学习率: 0.001
+2026-03-31 17:05:01 - FNN_Training - INFO - Epoch [10/150] - Train Loss: 26155.108842, Val Loss: 21045.495117
+2026-03-31 17:05:01 - FNN_Training - INFO - Epoch [20/150] - Train Loss: 9314.478782, Val Loss: 6590.594727
+2026-03-31 17:05:01 - FNN_Training - INFO - Epoch [30/150] - Train Loss: 4838.946378, Val Loss: 4421.825867
+2026-03-31 17:05:01 - FNN_Training - INFO - Epoch [40/150] - Train Loss: 3797.729270, Val Loss: 3371.542542
+2026-03-31 17:05:01 - FNN_Training - INFO - Epoch [50/150] - Train Loss: 3278.089466, Val Loss: 2702.857727
+2026-03-31 17:05:01 - FNN_Training - INFO - Epoch [60/150] - Train Loss: 3040.160367, Val Loss: 2496.222717
+2026-03-31 17:05:01 - FNN_Training - INFO - Epoch [70/150] - Train Loss: 2935.548717, Val Loss: 2401.264404
+2026-03-31 17:05:02 - FNN_Training - INFO - Epoch [80/150] - Train Loss: 2884.582497, Val Loss: 2357.060425
+2026-03-31 17:05:02 - FNN_Training - INFO - Epoch [90/150] - Train Loss: 2838.652122, Val Loss: 2314.283325
+2026-03-31 17:05:02 - FNN_Training - INFO - Epoch [100/150] - Train Loss: 2800.122570, Val Loss: 2285.105225
+2026-03-31 17:05:02 - FNN_Training - INFO - Epoch [110/150] - Train Loss: 2763.353105, Val Loss: 2312.567383
+2026-03-31 17:05:02 - FNN_Training - INFO - Epoch [120/150] - Train Loss: 2729.177668, Val Loss: 2254.901794
+2026-03-31 17:05:02 - FNN_Training - INFO - Epoch [130/150] - Train Loss: 2697.679577, Val Loss: 2239.156311
+2026-03-31 17:05:02 - FNN_Training - INFO - Epoch [140/150] - Train Loss: 2681.082042, Val Loss: 2205.013000
+2026-03-31 17:05:02 - FNN_Training - INFO - Epoch [150/150] - Train Loss: 2649.415505, Val Loss: 2250.246155
+2026-03-31 17:05:02 - FNN_Training - INFO - 训练完成！
+2026-03-31 17:05:02 - FNN_Training - INFO - 测试集评估 - MSE: 2490.982666, RMSE: 49.909744
+2026-03-31 17:05:02 - FNN_Training - INFO - 保存模型到 C:\Users\19441\Desktop\DL\FNN\FNN_Regression_Diabetes\experiments\activation_study_swish_20260331_170501\models\best_model.pt
+2026-03-31 17:05:02 - FNN_Training - INFO - 保存指标到 C:\Users\19441\Desktop\DL\FNN\FNN_Regression_Diabetes\experiments\activation_study_swish_20260331_170501\metrics.json
+2026-03-31 17:05:03 - FNN_Training - INFO - 保存图表到 C:\Users\19441\Desktop\DL\FNN\FNN_Regression_Diabetes\experiments\activation_study_swish_20260331_170501\figures\training_history.png
+2026-03-31 17:05:03 - FNN_Training - INFO - ============================================================
+2026-03-31 17:05:03 - FNN_Training - INFO - 实验 'activation_study_swish' 完成！
+2026-03-31 17:05:03 - FNN_Training - INFO - 最佳验证损失: 2205.013000
+2026-03-31 17:05:03 - FNN_Training - INFO - 测试集RMSE: 49.909744
+2026-03-31 17:05:03 - FNN_Training - INFO - ============================================================

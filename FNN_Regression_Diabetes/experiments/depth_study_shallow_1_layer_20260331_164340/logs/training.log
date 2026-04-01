@@ -1,0 +1,41 @@
+2026-03-31 16:43:40 - FNN_Training - INFO - ============================================================
+2026-03-31 16:43:40 - FNN_Training - INFO - 开始实验: depth_study_shallow_1_layer
+2026-03-31 16:43:40 - FNN_Training - INFO - 配置文件: C:\Users\19441\Desktop\DL\FNN\FNN_Regression_Diabetes\configs\exp_configs\depth_study\shallow_network.yaml
+2026-03-31 16:43:40 - FNN_Training - INFO - 实验描述: 研究网络深度的影响：测试一个仅包含单个隐藏层的浅层网络。
+2026-03-31 16:43:40 - FNN_Training - INFO - 输出目录: C:\Users\19441\Desktop\DL\FNN\FNN_Regression_Diabetes\experiments\depth_study_shallow_1_layer_20260331_164340
+2026-03-31 16:43:40 - FNN_Training - INFO - ============================================================
+2026-03-31 16:43:40 - FNN_Training - INFO - 随机种子: 42
+2026-03-31 16:43:40 - FNN_Training - INFO - 加载数据...
+2026-03-31 16:43:40 - FNN_Training - INFO - 构建模型...
+2026-03-31 16:43:40 - FNN_Training - INFO - 模型架构:
+2026-03-31 16:43:40 - FNN_Training - INFO -   隐藏层: [64]
+2026-03-31 16:43:40 - FNN_Training - INFO -   激活函数: relu
+2026-03-31 16:43:40 - FNN_Training - INFO -   Dropout: 0.0
+2026-03-31 16:43:40 - FNN_Training - INFO - 模型参数量: 769
+2026-03-31 16:43:40 - FNN_Training - INFO - 开始训练，共150个epoch
+2026-03-31 16:43:40 - FNN_Training - INFO - 优化器: Adam, 学习率: 0.001
+2026-03-31 16:43:40 - FNN_Training - INFO - Epoch [10/150] - Train Loss: 28352.191406, Val Loss: 23616.185547
+2026-03-31 16:43:40 - FNN_Training - INFO - Epoch [20/150] - Train Loss: 25387.611328, Val Loss: 20633.328125
+2026-03-31 16:43:40 - FNN_Training - INFO - Epoch [30/150] - Train Loss: 20168.457120, Val Loss: 15579.819824
+2026-03-31 16:43:41 - FNN_Training - INFO - Epoch [40/150] - Train Loss: 14286.158558, Val Loss: 10278.895020
+2026-03-31 16:43:41 - FNN_Training - INFO - Epoch [50/150] - Train Loss: 9754.780540, Val Loss: 6693.225342
+2026-03-31 16:43:41 - FNN_Training - INFO - Epoch [60/150] - Train Loss: 7200.409268, Val Loss: 5141.406128
+2026-03-31 16:43:41 - FNN_Training - INFO - Epoch [70/150] - Train Loss: 5932.204945, Val Loss: 4627.099487
+2026-03-31 16:43:41 - FNN_Training - INFO - Epoch [80/150] - Train Loss: 5254.239591, Val Loss: 4402.447327
+2026-03-31 16:43:41 - FNN_Training - INFO - Epoch [90/150] - Train Loss: 4834.383589, Val Loss: 4230.762695
+2026-03-31 16:43:41 - FNN_Training - INFO - Epoch [100/150] - Train Loss: 4533.942583, Val Loss: 4052.443115
+2026-03-31 16:43:41 - FNN_Training - INFO - Epoch [110/150] - Train Loss: 4288.140314, Val Loss: 3872.062866
+2026-03-31 16:43:41 - FNN_Training - INFO - Epoch [120/150] - Train Loss: 4076.693759, Val Loss: 3693.997375
+2026-03-31 16:43:41 - FNN_Training - INFO - Epoch [130/150] - Train Loss: 3890.242920, Val Loss: 3521.210876
+2026-03-31 16:43:41 - FNN_Training - INFO - Epoch [140/150] - Train Loss: 3723.672519, Val Loss: 3366.918945
+2026-03-31 16:43:41 - FNN_Training - INFO - Epoch [150/150] - Train Loss: 3576.455455, Val Loss: 3229.596375
+2026-03-31 16:43:41 - FNN_Training - INFO - 训练完成！
+2026-03-31 16:43:41 - FNN_Training - INFO - 测试集评估 - MSE: 3646.598877, RMSE: 60.387074
+2026-03-31 16:43:41 - FNN_Training - INFO - 保存模型到 C:\Users\19441\Desktop\DL\FNN\FNN_Regression_Diabetes\experiments\depth_study_shallow_1_layer_20260331_164340\models\best_model.pt
+2026-03-31 16:43:41 - FNN_Training - INFO - 保存指标到 C:\Users\19441\Desktop\DL\FNN\FNN_Regression_Diabetes\experiments\depth_study_shallow_1_layer_20260331_164340\metrics.json
+2026-03-31 16:43:42 - FNN_Training - INFO - 保存图表到 C:\Users\19441\Desktop\DL\FNN\FNN_Regression_Diabetes\experiments\depth_study_shallow_1_layer_20260331_164340\figures\training_history.png
+2026-03-31 16:43:42 - FNN_Training - INFO - ============================================================
+2026-03-31 16:43:42 - FNN_Training - INFO - 实验 'depth_study_shallow_1_layer' 完成！
+2026-03-31 16:43:42 - FNN_Training - INFO - 最佳验证损失: 3229.596375
+2026-03-31 16:43:42 - FNN_Training - INFO - 测试集RMSE: 60.387074
+2026-03-31 16:43:42 - FNN_Training - INFO - ============================================================

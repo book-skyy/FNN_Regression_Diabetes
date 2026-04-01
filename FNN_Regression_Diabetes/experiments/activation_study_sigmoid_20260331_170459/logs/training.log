@@ -1,0 +1,41 @@
+2026-03-31 17:04:59 - FNN_Training - INFO - ============================================================
+2026-03-31 17:04:59 - FNN_Training - INFO - 开始实验: activation_study_sigmoid
+2026-03-31 17:04:59 - FNN_Training - INFO - 配置文件: FNN_Regression_Diabetes\configs\exp_configs\activation_study\sigmoid_activation.yaml
+2026-03-31 17:04:59 - FNN_Training - INFO - 实验描述: Research activation function impact: Test Sigmoid activation with 2 hidden layers and learning rate 0.001.
+2026-03-31 17:04:59 - FNN_Training - INFO - 输出目录: C:\Users\19441\Desktop\DL\FNN\FNN_Regression_Diabetes\experiments\activation_study_sigmoid_20260331_170459
+2026-03-31 17:04:59 - FNN_Training - INFO - ============================================================
+2026-03-31 17:04:59 - FNN_Training - INFO - 随机种子: 42
+2026-03-31 17:04:59 - FNN_Training - INFO - 加载数据...
+2026-03-31 17:04:59 - FNN_Training - INFO - 构建模型...
+2026-03-31 17:04:59 - FNN_Training - INFO - 模型架构:
+2026-03-31 17:04:59 - FNN_Training - INFO -   隐藏层: [64, 32]
+2026-03-31 17:04:59 - FNN_Training - INFO -   激活函数: sigmoid
+2026-03-31 17:04:59 - FNN_Training - INFO -   Dropout: 0.0
+2026-03-31 17:04:59 - FNN_Training - INFO - 模型参数量: 2817
+2026-03-31 17:04:59 - FNN_Training - INFO - 开始训练，共150个epoch
+2026-03-31 17:04:59 - FNN_Training - INFO - 优化器: Adam, 学习率: 0.001
+2026-03-31 17:04:59 - FNN_Training - INFO - Epoch [10/150] - Train Loss: 28400.227273, Val Loss: 23766.347656
+2026-03-31 17:04:59 - FNN_Training - INFO - Epoch [20/150] - Train Loss: 27472.560014, Val Loss: 22920.200195
+2026-03-31 17:04:59 - FNN_Training - INFO - Epoch [30/150] - Train Loss: 26430.381747, Val Loss: 21984.933594
+2026-03-31 17:04:59 - FNN_Training - INFO - Epoch [40/150] - Train Loss: 25479.443714, Val Loss: 21131.770508
+2026-03-31 17:04:59 - FNN_Training - INFO - Epoch [50/150] - Train Loss: 24549.723544, Val Loss: 20308.607422
+2026-03-31 17:04:59 - FNN_Training - INFO - Epoch [60/150] - Train Loss: 23700.638317, Val Loss: 19548.778320
+2026-03-31 17:04:59 - FNN_Training - INFO - Epoch [70/150] - Train Loss: 22807.017401, Val Loss: 18759.614258
+2026-03-31 17:04:59 - FNN_Training - INFO - Epoch [80/150] - Train Loss: 21901.620206, Val Loss: 17946.228027
+2026-03-31 17:05:00 - FNN_Training - INFO - Epoch [90/150] - Train Loss: 20981.176136, Val Loss: 17144.499023
+2026-03-31 17:05:00 - FNN_Training - INFO - Epoch [100/150] - Train Loss: 20170.090732, Val Loss: 16435.899414
+2026-03-31 17:05:00 - FNN_Training - INFO - Epoch [110/150] - Train Loss: 19413.513849, Val Loss: 15774.934082
+2026-03-31 17:05:00 - FNN_Training - INFO - Epoch [120/150] - Train Loss: 18696.272727, Val Loss: 15153.008301
+2026-03-31 17:05:00 - FNN_Training - INFO - Epoch [130/150] - Train Loss: 18001.224077, Val Loss: 14541.877930
+2026-03-31 17:05:00 - FNN_Training - INFO - Epoch [140/150] - Train Loss: 17144.259588, Val Loss: 13806.630859
+2026-03-31 17:05:00 - FNN_Training - INFO - Epoch [150/150] - Train Loss: 16430.318714, Val Loss: 13195.792969
+2026-03-31 17:05:00 - FNN_Training - INFO - 训练完成！
+2026-03-31 17:05:00 - FNN_Training - INFO - 测试集评估 - MSE: 16555.185547, RMSE: 128.666962
+2026-03-31 17:05:00 - FNN_Training - INFO - 保存模型到 C:\Users\19441\Desktop\DL\FNN\FNN_Regression_Diabetes\experiments\activation_study_sigmoid_20260331_170459\models\best_model.pt
+2026-03-31 17:05:00 - FNN_Training - INFO - 保存指标到 C:\Users\19441\Desktop\DL\FNN\FNN_Regression_Diabetes\experiments\activation_study_sigmoid_20260331_170459\metrics.json
+2026-03-31 17:05:01 - FNN_Training - INFO - 保存图表到 C:\Users\19441\Desktop\DL\FNN\FNN_Regression_Diabetes\experiments\activation_study_sigmoid_20260331_170459\figures\training_history.png
+2026-03-31 17:05:01 - FNN_Training - INFO - ============================================================
+2026-03-31 17:05:01 - FNN_Training - INFO - 实验 'activation_study_sigmoid' 完成！
+2026-03-31 17:05:01 - FNN_Training - INFO - 最佳验证损失: 13195.792969
+2026-03-31 17:05:01 - FNN_Training - INFO - 测试集RMSE: 128.666962
+2026-03-31 17:05:01 - FNN_Training - INFO - ============================================================

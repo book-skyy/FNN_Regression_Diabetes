@@ -1,0 +1,33 @@
+# configs/exp_configs/depth_study/middle_network.yaml
+# 继承自 base_config.yaml, 仅修改 model.hidden_layers
+
+experiment_name: "depth_study_middle_2_layer"
+description: "研究网络深度的影响：测试一个包含两个隐藏层的中层网络。"
+tags: ["depth_study", "middle"]
+
+model:
+  # --- 修改点 ---
+  hidden_layers: [64, 32] # 包含两个隐藏层，分别有64个和32个神经元
+  # --- 其他参数沿用基础配置 ---
+  input_dim: 10
+  output_dim: 1
+  activation: "relu"
+  dropout_rate: 0.0
+
+# 其他所有配置（data, training, runtime）都与base_config.yaml保持一致
+data:
+  batch_size: 32
+  test_size: 0.1
+  validation_size: 0.1
+  random_state: 42
+
+training:
+  optimizer: "Adam"
+  learning_rate: 0.001
+  epochs: 150
+  loss_function: "MSELoss"
+
+runtime:
+  device: "auto"
+  seed: 42
+  output_dir: "./experiments"

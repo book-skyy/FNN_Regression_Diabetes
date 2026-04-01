@@ -1,0 +1,27 @@
+data:
+  batch_size: 32
+  random_state: 42
+  test_size: 0.1
+  validation_size: 0.1
+description: 研究网络深度的影响：测试一个仅包含单个隐藏层的浅层网络。
+experiment_name: depth_study_shallow_1_layer
+model:
+  activation: relu
+  dropout_rate: 0.0
+  hidden_layers:
+  - 64
+  input_dim: 10
+  output_dim: 1
+project_name: FNN_Regression_Diabetes
+runtime:
+  device: auto
+  output_dir: ./experiments
+  seed: 42
+tags:
+- depth_study
+- shallow
+training:
+  epochs: 150
+  learning_rate: 0.001
+  loss_function: MSELoss
+  optimizer: Adam

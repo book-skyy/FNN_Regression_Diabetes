@@ -1,0 +1,41 @@
+2026-03-31 17:05:03 - FNN_Training - INFO - ============================================================
+2026-03-31 17:05:03 - FNN_Training - INFO - 开始实验: activation_study_tanh
+2026-03-31 17:05:03 - FNN_Training - INFO - 配置文件: FNN_Regression_Diabetes\configs\exp_configs\activation_study\tanh_activation.yaml
+2026-03-31 17:05:03 - FNN_Training - INFO - 实验描述: Research activation function impact: Test Tanh activation with 2 hidden layers and learning rate 0.001.
+2026-03-31 17:05:03 - FNN_Training - INFO - 输出目录: C:\Users\19441\Desktop\DL\FNN\FNN_Regression_Diabetes\experiments\activation_study_tanh_20260331_170503
+2026-03-31 17:05:03 - FNN_Training - INFO - ============================================================
+2026-03-31 17:05:03 - FNN_Training - INFO - 随机种子: 42
+2026-03-31 17:05:03 - FNN_Training - INFO - 加载数据...
+2026-03-31 17:05:03 - FNN_Training - INFO - 构建模型...
+2026-03-31 17:05:03 - FNN_Training - INFO - 模型架构:
+2026-03-31 17:05:03 - FNN_Training - INFO -   隐藏层: [64, 32]
+2026-03-31 17:05:03 - FNN_Training - INFO -   激活函数: tanh
+2026-03-31 17:05:03 - FNN_Training - INFO -   Dropout: 0.0
+2026-03-31 17:05:03 - FNN_Training - INFO - 模型参数量: 2817
+2026-03-31 17:05:03 - FNN_Training - INFO - 开始训练，共150个epoch
+2026-03-31 17:05:03 - FNN_Training - INFO - 优化器: Adam, 学习率: 0.001
+2026-03-31 17:05:03 - FNN_Training - INFO - Epoch [10/150] - Train Loss: 27617.023082, Val Loss: 22994.863281
+2026-03-31 17:05:03 - FNN_Training - INFO - Epoch [20/150] - Train Loss: 26030.984020, Val Loss: 21612.351562
+2026-03-31 17:05:03 - FNN_Training - INFO - Epoch [30/150] - Train Loss: 24861.338601, Val Loss: 20576.856445
+2026-03-31 17:05:03 - FNN_Training - INFO - Epoch [40/150] - Train Loss: 23813.988104, Val Loss: 19645.375977
+2026-03-31 17:05:03 - FNN_Training - INFO - Epoch [50/150] - Train Loss: 22837.759233, Val Loss: 18781.725586
+2026-03-31 17:05:03 - FNN_Training - INFO - Epoch [60/150] - Train Loss: 21917.180487, Val Loss: 17968.521973
+2026-03-31 17:05:03 - FNN_Training - INFO - Epoch [70/150] - Train Loss: 21042.439098, Val Loss: 17199.205078
+2026-03-31 17:05:04 - FNN_Training - INFO - Epoch [80/150] - Train Loss: 20210.526101, Val Loss: 16468.407227
+2026-03-31 17:05:04 - FNN_Training - INFO - Epoch [90/150] - Train Loss: 19415.010653, Val Loss: 15774.362793
+2026-03-31 17:05:04 - FNN_Training - INFO - Epoch [100/150] - Train Loss: 18655.009943, Val Loss: 15114.367188
+2026-03-31 17:05:04 - FNN_Training - INFO - Epoch [110/150] - Train Loss: 17928.678445, Val Loss: 14484.565918
+2026-03-31 17:05:04 - FNN_Training - INFO - Epoch [120/150] - Train Loss: 17232.307262, Val Loss: 13886.062988
+2026-03-31 17:05:04 - FNN_Training - INFO - Epoch [130/150] - Train Loss: 16567.087802, Val Loss: 13315.432129
+2026-03-31 17:05:04 - FNN_Training - INFO - Epoch [140/150] - Train Loss: 15930.491300, Val Loss: 12772.220215
+2026-03-31 17:05:04 - FNN_Training - INFO - Epoch [150/150] - Train Loss: 15322.201882, Val Loss: 12255.091309
+2026-03-31 17:05:04 - FNN_Training - INFO - 训练完成！
+2026-03-31 17:05:04 - FNN_Training - INFO - 测试集评估 - MSE: 15452.345703, RMSE: 124.307465
+2026-03-31 17:05:04 - FNN_Training - INFO - 保存模型到 C:\Users\19441\Desktop\DL\FNN\FNN_Regression_Diabetes\experiments\activation_study_tanh_20260331_170503\models\best_model.pt
+2026-03-31 17:05:04 - FNN_Training - INFO - 保存指标到 C:\Users\19441\Desktop\DL\FNN\FNN_Regression_Diabetes\experiments\activation_study_tanh_20260331_170503\metrics.json
+2026-03-31 17:05:05 - FNN_Training - INFO - 保存图表到 C:\Users\19441\Desktop\DL\FNN\FNN_Regression_Diabetes\experiments\activation_study_tanh_20260331_170503\figures\training_history.png
+2026-03-31 17:05:05 - FNN_Training - INFO - ============================================================
+2026-03-31 17:05:05 - FNN_Training - INFO - 实验 'activation_study_tanh' 完成！
+2026-03-31 17:05:05 - FNN_Training - INFO - 最佳验证损失: 12255.091309
+2026-03-31 17:05:05 - FNN_Training - INFO - 测试集RMSE: 124.307465
+2026-03-31 17:05:05 - FNN_Training - INFO - ============================================================

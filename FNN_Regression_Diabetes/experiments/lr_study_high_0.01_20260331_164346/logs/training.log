@@ -1,0 +1,33 @@
+2026-03-31 16:43:46 - FNN_Training - INFO - ============================================================
+2026-03-31 16:43:46 - FNN_Training - INFO - 开始实验: lr_study_high_0.01
+2026-03-31 16:43:46 - FNN_Training - INFO - 配置文件: C:\Users\19441\Desktop\DL\FNN\FNN_Regression_Diabetes\configs\exp_configs\lr_study\lr_001.yaml
+2026-03-31 16:43:46 - FNN_Training - INFO - 实验描述: 研究学习率的影响：测试一个较高的学习率（0.01）。
+2026-03-31 16:43:46 - FNN_Training - INFO - 输出目录: C:\Users\19441\Desktop\DL\FNN\FNN_Regression_Diabetes\experiments\lr_study_high_0.01_20260331_164346
+2026-03-31 16:43:46 - FNN_Training - INFO - ============================================================
+2026-03-31 16:43:46 - FNN_Training - INFO - 随机种子: 42
+2026-03-31 16:43:46 - FNN_Training - INFO - 加载数据...
+2026-03-31 16:43:46 - FNN_Training - INFO - 构建模型...
+2026-03-31 16:43:46 - FNN_Training - INFO - 模型架构:
+2026-03-31 16:43:46 - FNN_Training - INFO -   隐藏层: [64, 32]
+2026-03-31 16:43:46 - FNN_Training - INFO -   激活函数: relu
+2026-03-31 16:43:46 - FNN_Training - INFO -   Dropout: 0.0
+2026-03-31 16:43:46 - FNN_Training - INFO - 模型参数量: 2817
+2026-03-31 16:43:46 - FNN_Training - INFO - 开始训练，共150个epoch
+2026-03-31 16:43:46 - FNN_Training - INFO - 优化器: Adam, 学习率: 0.01
+2026-03-31 16:43:46 - FNN_Training - INFO - Epoch [10/150] - Train Loss: 3018.506226, Val Loss: 2709.797485
+2026-03-31 16:43:46 - FNN_Training - INFO - Epoch [20/150] - Train Loss: 2750.708873, Val Loss: 2619.256531
+2026-03-31 16:43:46 - FNN_Training - INFO - Epoch [30/150] - Train Loss: 2621.127364, Val Loss: 2400.331970
+2026-03-31 16:43:46 - FNN_Training - INFO - Epoch [40/150] - Train Loss: 2570.962824, Val Loss: 2368.897888
+2026-03-31 16:43:46 - FNN_Training - INFO - Epoch [50/150] - Train Loss: 2515.155495, Val Loss: 2546.213867
+2026-03-31 16:43:46 - FNN_Training - INFO - Epoch [60/150] - Train Loss: 2514.854969, Val Loss: 2435.662048
+2026-03-31 16:43:46 - FNN_Training - INFO - 触发早停条件 (连续20个epoch无改进)
+2026-03-31 16:43:46 - FNN_Training - INFO - 训练完成！
+2026-03-31 16:43:46 - FNN_Training - INFO - 测试集评估 - MSE: 2518.588623, RMSE: 50.185543
+2026-03-31 16:43:46 - FNN_Training - INFO - 保存模型到 C:\Users\19441\Desktop\DL\FNN\FNN_Regression_Diabetes\experiments\lr_study_high_0.01_20260331_164346\models\best_model.pt
+2026-03-31 16:43:47 - FNN_Training - INFO - 保存指标到 C:\Users\19441\Desktop\DL\FNN\FNN_Regression_Diabetes\experiments\lr_study_high_0.01_20260331_164346\metrics.json
+2026-03-31 16:43:47 - FNN_Training - INFO - 保存图表到 C:\Users\19441\Desktop\DL\FNN\FNN_Regression_Diabetes\experiments\lr_study_high_0.01_20260331_164346\figures\training_history.png
+2026-03-31 16:43:47 - FNN_Training - INFO - ============================================================
+2026-03-31 16:43:47 - FNN_Training - INFO - 实验 'lr_study_high_0.01' 完成！
+2026-03-31 16:43:47 - FNN_Training - INFO - 最佳验证损失: 2254.273560
+2026-03-31 16:43:47 - FNN_Training - INFO - 测试集RMSE: 50.185543
+2026-03-31 16:43:47 - FNN_Training - INFO - ============================================================
